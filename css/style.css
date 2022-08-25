@@ -1122,6 +1122,10 @@ html{
     margin-top: 6rem;
   }
 
+  .md\:mt-12{
+    margin-top: 3rem;
+  }
+
   .md\:flex{
     display: flex;
   }
