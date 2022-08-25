@@ -1,0 +1,54 @@
+
+/* lato & sansita */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Sansita:wght@400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#header{
+    background: linear-gradient(to right, #000000ab 60%, black 40%), url(../img/Truck-landing.jpg) no-repeat center center/cover;
+}
+
+.line::after {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 30%;
+    height: 5px;
+    background: rgb(163, 160, 160);
+    display: block;
+}
+
+.dot::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: inherit;
+    height: inherit;
+    background: rgb(67, 129, 223);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+@media (max-width: 768px) {
+    #header{
+        background: linear-gradient(to bottom, #000000b0 60%, #000000b0 40%), url(../img/Truck-landing.jpg) no-repeat center center/cover;
+    }
+}
+
