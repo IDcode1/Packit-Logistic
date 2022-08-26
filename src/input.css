@@ -17,7 +17,7 @@ html{
 }
 
 #header{
-    background: linear-gradient(to right, #000000ab 60%, black 40%), url(../img/Truck-landing.jpg) no-repeat center center/cover;
+    background: linear-gradient(to right, #000000ab 60%, black 25%), url(../img/Truck-landing.jpg) no-repeat center center/cover;
 }
 
 .line::after {
@@ -43,12 +43,17 @@ html{
     display: inline-block;
 }
 
-
+.up{
+    display: none;
+}
 
 
 @media (max-width: 768px) {
     #header{
         background: linear-gradient(to bottom, #000000b0 60%, #000000b0 40%), url(../img/Truck-landing.jpg) no-repeat center center/cover;
+    }
+    .up{
+        display: block;
     }
 }
 
